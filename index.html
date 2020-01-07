@@ -12,12 +12,12 @@
     <form>
         <div class="container">
             <div id="iznosNapojnice" class='stavka'>
-                <h2>Iznos napojnice</h2>
-                <div class="napojnica"></div>
+                <h2>Iznos napojnice (kn)</h2>
+                <div id="napojnica"></div>
             </div>
             <div id="postavke">
                 <div id="iznos" class='stavka'>
-                <label>Iznos računa (kn)<input type="text">
+                <label>Iznos računa (kn)<input type="text" id='cifra'>
                 </label></div>
                 <div id="kvaliteta" class='stavka'>
                     <p>Kvaliteta usluge</p>
@@ -29,8 +29,8 @@
                 </div>
             </div>
             <div id="gumbovi">
-                <button type='submit' class='button red'>Izračunaj</button>
-                <button type='reset' class='button green'>Resetiraj</button>
+                <button type='submit' id='sub' class='button red'>Izračunaj</button>
+                <button type='reset' id='res' class='button green'>Resetiraj</button>
             </div>
         </div>
     </form>
